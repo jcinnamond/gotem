@@ -43,6 +43,17 @@ pointless.
 (Behind the scenes, gotem uses Go's templating system so maybe you can
 do something fancier with the templates.)
 
+## Installing ##
+
+Binaries for Mac and Linux are available from the
+[https://github.com/jcinnamond/gotem/releases/tag/v1.0.0](releases
+page).
+
+If you have [http://golang.org](Go) installed you can install from
+source by running:
+
+    go get github.com/jcinnamond/gotem
+
 ## Licence ##
 
 The MIT License (MIT)
