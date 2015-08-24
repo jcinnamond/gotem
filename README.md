@@ -46,10 +46,9 @@ do something fancier with the templates.)
 ## Installing ##
 
 Binaries for Mac and Linux are available from the
-[https://github.com/jcinnamond/gotem/releases/tag/v1.0.0](releases
-page).
+[releases page](https://github.com/jcinnamond/gotem/releases/tag/v1.0.0).
 
-If you have [http://golang.org](Go) installed you can install from
+If you have [Go](http://golang.org) installed you can install from
 source by running:
 
     go get github.com/jcinnamond/gotem
