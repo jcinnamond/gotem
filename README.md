@@ -10,7 +10,7 @@ then include them from another file.
 
 Put all of the elements to include into the same directory, containing
 one file for each element ending in `.template`. For example, you
-could create a directory called 'includes', and then create a file in
+could create a directory called `includes`, and then create a file in
 there called `html_start.template` containing:
 
     <html>
@@ -36,7 +36,7 @@ And that's it.
 
 If the output file is missing or `-` then the compiled HTML file will
 be printed to stdout. If the input file is missing or `-` then the
-template will be read from stdin. You can run gotem without -I but
+template will be read from stdin. You can run gotem without `-I` but
 then you won't be able to include anything, so it might be kinda
 pointless.
 
