@@ -16,8 +16,13 @@ type partials map[string]string
 
 func main() {
 	include_path := flag.String("I", "", "search `directory` for includes")
+	version := flag.Bool("v", false, "print version and exit")
 
 	flag.Parse()
+
+	if *version {
+		printVersion()
+	}
 
 	var p partials
 	var err error
